@@ -1,21 +1,93 @@
-# 💫 About Me:
-👨‍💻 About Me<br>I'm Govind Sharma, a passionate Computer Science & Engineering student at JK Lakshmipat University, Jaipur, Rajasthan. With a strong foundation in machine learning, data science, and software development, I thrive on solving complex problems and building innovative solutions.<br><br>🌟 What I’m Currently Working On<br>Decentralized Crowdfunding Platform : Developing a transparent crowdfunding platform using Solidity and Thirdweb on the Ethereum blockchain.<br>Hand Gesture to Voice Conversion System : Designing an IoT-based system using Raspberry Pi and Python to translate hand gestures into audible speech for specially-abled individuals.<br>Predictive Maintenance Models : Enhancing predictive models for turbofan engines using NASA’s C-MAPSS dataset.<br>🤝 Looking to Collaborate On<br>Open-source projects related to AI/ML, Data Science, and Blockchain.<br>Innovative projects that involve predictive analytics, sentiment analysis, or image processing.<br>Research initiatives focused on sustainable development goals and technological advancements.<br>🤔 Seeking Help With<br>Advanced optimization techniques in machine learning models.<br>Best practices in deploying large-scale applications on cloud platforms like AWS and Google Cloud.<br>Insights into real-world applications of multi-agent systems and reinforcement learning.<br>🌱 Currently Learning<br>Deepening my understanding of advanced neural networks (CNNs, RNNs, Transformers).<br>Exploring new frameworks like LangChain and AutoGPT for automating tasks.<br>Mastering cloud technologies and DevOps practices for seamless deployment.<br>💬 Ask Me About<br>Machine Learning algorithms and their practical implementations.<br>Building end-to-end data pipelines and performing statistical analyses.<br>My experience as a Campus Ambassador for Techgig and promoting coding culture.<br>⚡ Fun Fact<br>I once built a sentiment analysis system for Amazon Ads Publishers, which helped optimize ad recommendations based on customer sentiment!<br>🏆 Achievements<br>Completed a Software Engineering Virtual Experience Program with JPMorgan Chase & Co., focusing on financial web applications and collaborative coding practices.<br>Earned certifications in Statistics for Data Science with Python from IBM and Matrix Algebra for Engineers from HKUST.<br>📚 Recent Projects<br>Predictive Analytics for SDG 6 : Developed ML models to predict water management expenditures in India.<br>Nirvana: Stress Relief Solution : Created a web app integrating relaxation techniques for stress management.<br>RUL Prediction for Turbo Engines : Built predictive maintenance models using various ML algorithms.
+<div align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00BFFF&center=true&vCenter=true&width=435&lines=Hi+there+%F0%9F%91%8B%2C+I'm+Govind+Sharma;I'm+an+AI+%26+ML+Developer...;and+a+passionate+Flutter+Engineer." alt="Typing SVG" /></a>
+</div>
 
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/govind--sharma) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![nVIDIA](https://img.shields.io/badge/cuda-000000.svg?style=for-the-badge&logo=nVIDIA&logoColor=green) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Qt](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Dribbble](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Prezi](https://img.shields.io/badge/Prezi-%23000000.svg?style=for-the-badge&logo=Prezi&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=CodeGovindz&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=CodeGovindz&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeGovindz&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=CodeGovindz&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<p align="center">
+  <a href="mailto:govindsarswat256@gmail.com"><img src="https://img.shields.io/badge/Email-govindsarswat256@gmail.com-blue?style=for-the-badge&logo=gmail" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/your-linkedin-profile"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"></a>
+  <a href="https://github.com/your-github-username"><img src="https://img.shields.io/badge/GitHub-Follow-green?style=for-the-badge&logo=github" alt="GitHub"></a>
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=CodeGovindz&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 👨‍💻 About Me
+
+[cite_start]I am a results-driven Computer Science student specializing in AI/ML development and cross-platform mobile applications[cite: 3, 55]. [cite_start]My experience includes building deep learning models for computer vision and NLP using frameworks like PyTorch and TensorFlow, as well as designing responsive UIs with Flutter[cite: 3, 4, 56]. [cite_start]I am passionate about creating innovative, user-centric solutions and optimizing systems for peak performance[cite: 57].
+
+- [cite_start]🎓 Pursuing a B.Tech in Computer Science & Engineering from **JK Lakshmipat University** (2022-2026)[cite: 6, 59].
+- [cite_start]💡 Expertise in **Deep Learning**, **Computer Vision**, **NLP**, and **Generative AI**[cite: 56, 62, 64, 65, 66].
+- [cite_start]🚀 Skilled in building and deploying full-stack mobile applications using **Flutter**, **Dart**, **Firebase**, and **AWS**[cite: 8, 12].
+- [cite_start]💼 Currently an **AI & ML Intern** at Digital Hercules Innovations, developing sentiment analysis systems and image generation models[cite: 43, 92, 94].
+
+---
+
+### 🛠️ My Tech Stack & Skills
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flutter,dart,tensorflow,pytorch,huggingface,scikitlearn,opencv" /><br>
+  <img src="https://skillicons.dev/icons?i=aws,gcp,firebase,supabase,docker,git,figma,androidstudio" /><br>
+  <img src="https://skillicons.dev/icons?i=cpp,js,solidity,mysql,postgres,postman,linux,bash" />
+</p>
+
+---
+
+### 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">Manan - Mental Health Companion App</h3>
+      <div align="center">
+        [cite_start]<p>Developed an AI-powered, privacy-first mental health app with multimodal emotion analysis using face, voice, and text, and an integrated AI chatbot for support[cite: 18, 19, 21].</p>
+        [cite_start]<p><strong>Tech:</strong> Flutter, Supabase, Python, TensorFlow, PyTorch, Transformers[cite: 16].</p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">Sentiment Analysis System</h3>
+      <div align="center">
+        [cite_start]<p>Designed an advanced system to analyze customer feedback from product reviews using LSTM and transformer-based models with a keyword extraction pipeline[cite: 83].</p>
+        [cite_start]<p><strong>Tech:</strong> NLP, Deep Learning, TensorFlow[cite: 82].</p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">RUL Prediction for Turbo Engines</h3>
+      <div align="center">
+        [cite_start]<p>Developed a predictive maintenance model using NASA's C-MAPSS dataset to forecast the Remaining Useful Life (RUL) of turbofan engines, comparing multiple ML algorithms[cite: 78, 79].</p>
+        [cite_start]<p><strong>Tech:</strong> Machine Learning, PyTorch, Scikit-learn, Pandas[cite: 76].</p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">Decentralized Crowdfunding Platform</h3>
+      <div align="center">
+        [cite_start]<p>Developed and deployed a transparent crowdfunding platform on the Ethereum blockchain using Solidity, allowing users to create and contribute to campaigns securely[cite: 39].</p>
+        [cite_start]<p><strong>Tech:</strong> Solidity, Thirdweb, Ethereum[cite: 37].</p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 My GitHub Stats & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=radical&rank_icon=github&count_private=true" alt="Govind's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-github-username&theme=dark&background=000000" alt="Govind's GitHub Streak" />
+  <br/><br/>
+  <img src="https://github-profile-trophy.vercel.app/?username=your-github-username&theme=radical&row=1&column=7" alt="Govind's GitHub Trophies" />
+</div>
+
+<div align="center">
+  <img src="https://metrics.lecoq.io/your-github-username?template=classic&config.is_local=false&config.timezone=Asia/Kolkata" alt="Metrics" />
+</div>
+
+---
+
+### 🏆 Certifications
+
+- [cite_start]**Software Engineering Virtual Experience** - JPMorgan Chase & Co [cite: 51, 106]
+- [cite_start]**Statistics for Data Science with Python** - IBM [cite: 105]
+- [cite_start]**Python Data Structures** - University of Michigan [cite: 51, 107]
+- [cite_start]**Matrix Algebra for Engineers** - The Hong Kong University of Science and Technology [cite: 108]
