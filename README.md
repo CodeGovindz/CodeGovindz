@@ -17,3 +17,15 @@
   <a href="mailto:govindsarswat256@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
   <a href="https://github.com/CodeGovindz" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </div>
+
+---
+
+### 🛠️ My Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,flutter,dart,tensorflow,pytorch,huggingface,scikitlearn,opencv" /><br>
+  <img src="https://skillicons.dev/icons?i=aws,gcp,firebase,supabase,docker,git,figma,androidstudio" /><br>
+  <img src="https://skillicons.dev/icons?i=cpp,js,solidity,mysql,postgres,postman,linux,bash" />
+</p>
+
+---
