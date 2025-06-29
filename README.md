@@ -12,12 +12,12 @@
 
 ### 👨‍💻 About Me
 
-[cite_start]I am a results-driven Computer Science student specializing in AI/ML development and cross-platform mobile applications[cite: 3, 55]. [cite_start]My experience includes building deep learning models for computer vision and NLP using frameworks like PyTorch and TensorFlow, as well as designing responsive UIs with Flutter[cite: 3, 4, 56]. [cite_start]I am passionate about creating innovative, user-centric solutions and optimizing systems for peak performance[cite: 57].
+I am a results-driven Computer Science student specializing in AI/ML development and cross-platform mobile applications[cite: 3, 55]. [cite_start]My experience includes building deep learning models for computer vision and NLP using frameworks like PyTorch and TensorFlow, as well as designing responsive UIs with Flutter[cite: 3, 4, 56]. [cite_start]I am passionate about creating innovative, user-centric solutions and optimizing systems for peak performance[cite: 57].
 
-- [cite_start]🎓 Pursuing a B.Tech in Computer Science & Engineering from **JK Lakshmipat University** (2022-2026)[cite: 6, 59].
-- [cite_start]💡 Expertise in **Deep Learning**, **Computer Vision**, **NLP**, and **Generative AI**[cite: 56, 62, 64, 65, 66].
-- [cite_start]🚀 Skilled in building and deploying full-stack mobile applications using **Flutter**, **Dart**, **Firebase**, and **AWS**[cite: 8, 12].
-- [cite_start]💼 Currently an **AI & ML Intern** at Digital Hercules Innovations, developing sentiment analysis systems and image generation models[cite: 43, 92, 94].
+🎓 Pursuing a B.Tech in Computer Science & Engineering from **JK Lakshmipat University** (2022-2026)[cite: 6, 59].
+💡 Expertise in **Deep Learning**, **Computer Vision**, **NLP**, and **Generative AI**[cite: 56, 62, 64, 65, 66].
+🚀 Skilled in building and deploying full-stack mobile applications using **Flutter**, **Dart**, **Firebase**, and **AWS**[cite: 8, 12].
+💼 Currently an **AI & ML Intern** at Digital Hercules Innovations, developing sentiment analysis systems and image generation models[cite: 43, 92, 94].
 
 ---
 
@@ -38,15 +38,15 @@
     <td width="50%">
       <h3 align="center">Manan - Mental Health Companion App</h3>
       <div align="center">
-        [cite_start]<p>Developed an AI-powered, privacy-first mental health app with multimodal emotion analysis using face, voice, and text, and an integrated AI chatbot for support[cite: 18, 19, 21].</p>
-        [cite_start]<p><strong>Tech:</strong> Flutter, Supabase, Python, TensorFlow, PyTorch, Transformers[cite: 16].</p>
+        <p>Developed an AI-powered, privacy-first mental health app with multimodal emotion analysis using face, voice, and text, and an integrated AI chatbot for support[cite: 18, 19, 21].</p>
+        <p><strong>Tech:</strong> Flutter, Supabase, Python, TensorFlow, PyTorch, Transformers[cite: 16].</p>
       </div>
     </td>
     <td width="50%">
       <h3 align="center">Sentiment Analysis System</h3>
       <div align="center">
-        [cite_start]<p>Designed an advanced system to analyze customer feedback from product reviews using LSTM and transformer-based models with a keyword extraction pipeline[cite: 83].</p>
-        [cite_start]<p><strong>Tech:</strong> NLP, Deep Learning, TensorFlow[cite: 82].</p>
+        <p>Designed an advanced system to analyze customer feedback from product reviews using LSTM and transformer-based models with a keyword extraction pipeline[cite: 83].</p>
+        <p><strong>Tech:</strong> NLP, Deep Learning, TensorFlow[cite: 82].</p>
       </div>
     </td>
   </tr>
@@ -54,15 +54,15 @@
     <td width="50%">
       <h3 align="center">RUL Prediction for Turbo Engines</h3>
       <div align="center">
-        [cite_start]<p>Developed a predictive maintenance model using NASA's C-MAPSS dataset to forecast the Remaining Useful Life (RUL) of turbofan engines, comparing multiple ML algorithms[cite: 78, 79].</p>
-        [cite_start]<p><strong>Tech:</strong> Machine Learning, PyTorch, Scikit-learn, Pandas[cite: 76].</p>
+        <p>Developed a predictive maintenance model using NASA's C-MAPSS dataset to forecast the Remaining Useful Life (RUL) of turbofan engines, comparing multiple ML algorithms[cite: 78, 79].</p>
+        <p><strong>Tech:</strong> Machine Learning, PyTorch, Scikit-learn, Pandas[cite: 76].</p>
       </div>
     </td>
     <td width="50%">
       <h3 align="center">Decentralized Crowdfunding Platform</h3>
       <div align="center">
-        [cite_start]<p>Developed and deployed a transparent crowdfunding platform on the Ethereum blockchain using Solidity, allowing users to create and contribute to campaigns securely[cite: 39].</p>
-        [cite_start]<p><strong>Tech:</strong> Solidity, Thirdweb, Ethereum[cite: 37].</p>
+        <p>Developed and deployed a transparent crowdfunding platform on the Ethereum blockchain using Solidity, allowing users to create and contribute to campaigns securely[cite: 39].</p>
+        <p><strong>Tech:</strong> Solidity, Thirdweb, Ethereum[cite: 37].</p>
       </div>
     </td>
   </tr>
@@ -87,7 +87,7 @@
 
 ### 🏆 Certifications
 
-- [cite_start]**Software Engineering Virtual Experience** - JPMorgan Chase & Co [cite: 51, 106]
-- [cite_start]**Statistics for Data Science with Python** - IBM [cite: 105]
-- [cite_start]**Python Data Structures** - University of Michigan [cite: 51, 107]
-- [cite_start]**Matrix Algebra for Engineers** - The Hong Kong University of Science and Technology [cite: 108]
+**Software Engineering Virtual Experience** - JPMorgan Chase & Co [cite: 51, 106]
+**Statistics for Data Science with Python** - IBM [cite: 105]
+**Python Data Structures** - University of Michigan [cite: 51, 107]
+**Matrix Algebra for Engineers** - The Hong Kong University of Science and Technology [cite: 108]
