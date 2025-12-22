@@ -6,7 +6,7 @@
 <!-- Animated Typing Effect -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=667EEA&center=true&vCenter=true&random=false&width=600&lines=Building+Intelligent+Systems+%F0%9F%A7%A0;Deep+Learning+%7C+NLP+%7C+Computer+Vision;Transformers+%26+LLMs+Enthusiast;Cloud-Native+AI+Solutions" alt="Typing SVG" /></a>
 
-<!-- Profile Views & Socials -->
+<!-- Profile Views & Social -->
 <br/>
 <p>
 <a href="https://github.com/CodeGovindz"><img src="https://komarev.com/ghpvc/?username=CodeGovindz&label=Profile%20Views&color=667eea&style=for-the-badge" alt="Profile Views"/></a>
