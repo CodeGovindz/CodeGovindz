@@ -3,7 +3,7 @@
 <!-- Animated Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Govind%20Sharma&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20|%20ML%20Researcher%20|%20GenAI%20Explorer&descSize=20&descAlignY=55"/>
 
-<!-- Animated Typing Effect -->
+<!-- Animated Typing Effects -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=667EEA&center=true&vCenter=true&random=false&width=600&lines=Building+Intelligent+Systems+%F0%9F%A7%A0;Deep+Learning+%7C+NLP+%7C+Computer+Vision;Transformers+%26+LLMs+Enthusiast;Cloud-Native+AI+Solutions" alt="Typing SVG" /></a>
 
 <!-- Profile Views & Social -->
