@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 400" width="940" height="400" role="img" aria-label="Results: invoice field accuracy 85 to 93 percent; 10-K context recall 62 to 84 percent; cost per 1K documents down 85 percent; manual processing down 50 percent; p95 latency down 40 percent; cost per query down 35 percent; maintenance overhead down 30 percent.">
+<style>
+  .t  { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 15px; font-weight: 600; font-style: normal; fill: #e6edf3; }
+  .l  { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 14px; font-weight: 400; font-style: normal; fill: #e6edf3; }
+  .s  { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 12.5px; font-weight: 400; font-style: normal; fill: #9198a1; }
+  .n  { font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 12px; font-weight: 400; font-style: normal; fill: #9198a1; }
+  .nb { font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 12.5px; font-weight: 600; font-style: normal; fill: #e6edf3; }
+  .cap  { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 13px; font-weight: 400; font-style: normal; fill: #9198a1; }
+  .capb { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 13px; font-weight: 600; font-style: normal; fill: #e6edf3; }
+  .grow { transform-box: fill-box; transform-origin: left center; animation: grow .9s cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes grow { from { transform: scaleX(0); } }
+  @media (prefers-reduced-motion: reduce) { .grow { animation: none; } }
+</style>
+<rect width="940" height="400" rx="10" fill="#0d1117"/>
+<text class="t" x="44" y="46">(a) Quality on held-out evals</text>
+<text class="l" x="60" y="82">Invoice field-level accuracy</text>
+<text class="s" x="60" y="99">few-shot GPT-4o-mini → QLoRA + DPO 7B</text>
+<line x1="60" y1="120" x2="420" y2="120" stroke="#30363d"/>
+<rect class="grow" style="animation-delay:0.3s" x="312.0" y="118" width="57.60000000000002" height="4" rx="2" fill="#35b779" opacity=".45"/>
+<circle cx="312.0" cy="120" r="6" fill="#6e7681"/>
+<circle cx="369.6" cy="120" r="7" fill="#35b779"/>
+<text class="n" x="312.0" y="144" text-anchor="middle">85</text>
+<text class="nb" x="369.6" y="144" text-anchor="middle">93</text>
+<line x1="376.8" y1="110" x2="376.8" y2="130" stroke="#fde725" stroke-width="2" stroke-dasharray="3 2"/>
+<text class="s" x="376.8" y="104" text-anchor="middle">GPT-4o</text>
+<text class="l" x="60" y="174">10-K context recall</text>
+<text class="s" x="60" y="191">dense-only → hybrid + rerank + tuned embeddings</text>
+<line x1="60" y1="212" x2="420" y2="212" stroke="#30363d"/>
+<rect class="grow" style="animation-delay:0.55s" x="146.39999999999998" y="210" width="158.40000000000003" height="4" rx="2" fill="#35b779" opacity=".45"/>
+<circle cx="146.39999999999998" cy="212" r="6" fill="#6e7681"/>
+<circle cx="304.8" cy="212" r="7" fill="#35b779"/>
+<text class="n" x="146.39999999999998" y="236" text-anchor="middle">62</text>
+<text class="nb" x="304.8" y="236" text-anchor="middle">84</text>
+<text class="n" x="60.0" y="268" text-anchor="middle">50%</text>
+<text class="n" x="240.0" y="268" text-anchor="middle">75%</text>
+<text class="n" x="420.0" y="268" text-anchor="middle">100%</text>
+<circle cx="64" cy="302" r="5" fill="#6e7681"/><text class="s" x="74" y="306">baseline</text>
+<circle cx="150" cy="302" r="5" fill="#35b779"/><text class="s" x="160" y="306">shipped</text>
+<line x1="230" y1="295" x2="230" y2="309" stroke="#fde725" stroke-width="2" stroke-dasharray="3 2"/><text class="s" x="238" y="306">frontier reference</text>
+<line x1="480" y1="36" x2="480" y2="326" stroke="#30363d"/>
+<text class="t" x="510" y="46">(b) Reduction vs. each project’s baseline</text>
+<text class="l" x="628" y="99" text-anchor="end">cost / 1K documents</text>
+<rect x="640" y="86" width="240" height="18" rx="3" fill="#30363d" opacity=".45"/>
+<rect class="grow" style="animation-delay:0.50s" x="640" y="86" width="204.0" height="18" rx="3" fill="#35b779"/>
+<text class="nb" x="836.0" y="99.5" text-anchor="end" style="fill:#0d1117">−85%</text>
+<text class="l" x="628" y="139" text-anchor="end">manual processing</text>
+<rect x="640" y="126" width="240" height="18" rx="3" fill="#30363d" opacity=".45"/>
+<rect class="grow" style="animation-delay:0.65s" x="640" y="126" width="120.0" height="18" rx="3" fill="#35b779"/>
+<text class="nb" x="768.0" y="139.5" text-anchor="start" style="fill:#e6edf3">−50%</text>
+<text class="l" x="628" y="179" text-anchor="end">p95 latency (RAG)</text>
+<rect x="640" y="166" width="240" height="18" rx="3" fill="#30363d" opacity=".45"/>
+<rect class="grow" style="animation-delay:0.80s" x="640" y="166" width="96.0" height="18" rx="3" fill="#35b779"/>
+<text class="nb" x="744.0" y="179.5" text-anchor="start" style="fill:#e6edf3">−40%</text>
+<text class="l" x="628" y="219" text-anchor="end">cost / query</text>
+<rect x="640" y="206" width="240" height="18" rx="3" fill="#30363d" opacity=".45"/>
+<rect class="grow" style="animation-delay:0.95s" x="640" y="206" width="84.0" height="18" rx="3" fill="#35b779"/>
+<text class="nb" x="732.0" y="219.5" text-anchor="start" style="fill:#e6edf3">−35%</text>
+<text class="l" x="628" y="259" text-anchor="end">maintenance</text>
+<rect x="640" y="246" width="240" height="18" rx="3" fill="#30363d" opacity=".45"/>
+<rect class="grow" style="animation-delay:1.10s" x="640" y="246" width="72.0" height="18" rx="3" fill="#35b779"/>
+<text class="nb" x="720.0" y="259.5" text-anchor="start" style="fill:#e6edf3">−30%</text>
+<line x1="44" y1="342" x2="896" y2="342" stroke="#30363d"/>
+<text class="cap" x="44" y="370"><tspan class="capb">Figure 2.</tspan> Results from production and project work. Values are approximate; baselines differ per system.</text>
+</svg>

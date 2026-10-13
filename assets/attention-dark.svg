@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 476" width="940" height="476" role="img" aria-label="Govind Sharma. Causal self-attention heatmap over the sentence: Govind builds agents that retrieve, reason and ship.">
+<style>
+  .name { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 46px; font-weight: 600; font-style: normal; fill: #e6edf3; letter-spacing: -0.5px; }
+  .lede { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 24px; font-weight: 400; font-style: italic; fill: #e6edf3; }
+  .body { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 15.5px; font-weight: 400; font-style: normal; fill: #9198a1; }
+  .tok  { font-family: 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 12px; font-weight: 400; font-style: normal; fill: #9198a1; }
+  .axis { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 12px; font-weight: 400; font-style: italic; fill: #9198a1; }
+  .cap  { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 13px; font-weight: 400; font-style: normal; fill: #9198a1; }
+  .capb { font-family: Charter, 'Bitstream Charter', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-size: 13px; font-weight: 600; font-style: normal; fill: #e6edf3; }
+  .row  { animation: decode .45s ease-out backwards; }
+  @keyframes decode { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+  .cursor { animation: scan 4.5s steps(1, end) 1 both; }
+  @keyframes scan { 0% { transform: translateY(0px); opacity:1 } 10% { transform: translateY(24px); opacity:1 } 20% { transform: translateY(48px); opacity:1 } 30% { transform: translateY(72px); opacity:1 } 40% { transform: translateY(96px); opacity:1 } 50% { transform: translateY(120px); opacity:1 } 60% { transform: translateY(144px); opacity:1 } 70% { transform: translateY(168px); opacity:1 } 80% { transform: translateY(192px); opacity:1 } 90% { transform: translateY(216px); opacity:1 } 100% { transform: translateY(216px); opacity: 0 } }
+  @media (prefers-reduced-motion: reduce) { .row, .cursor { animation: none; } .cursor { opacity: 0; } }
+</style>
+<defs><pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="#161b22"/><line x1="0" y1="0" x2="0" y2="5" stroke="#30363d" stroke-width="1.2"/></pattern><linearGradient id="cbar" x1="0" y1="1" x2="0" y2="0"><stop offset="0.0" stop-color="#440154"/><stop offset="0.1" stop-color="#482475"/><stop offset="0.2" stop-color="#414487"/><stop offset="0.3" stop-color="#355f8d"/><stop offset="0.4" stop-color="#2a788e"/><stop offset="0.5" stop-color="#21918c"/><stop offset="0.6" stop-color="#22a884"/><stop offset="0.7" stop-color="#44bf70"/><stop offset="0.8" stop-color="#7ad151"/><stop offset="0.9" stop-color="#bddf26"/><stop offset="1.0" stop-color="#fde725"/></linearGradient></defs>
+<rect width="940" height="476" rx="10" fill="#0d1117"/>
+<text class="name" x="44" y="132">Govind Sharma</text>
+<text class="lede" x="46" y="176">Govind builds agents that</text>
+<text class="lede" x="46" y="206">retrieve, reason and ship.</text>
+<text class="body" x="46" y="250">AI engineer at Celebal Technologies. I take LLM systems</text>
+<text class="body" x="46" y="273">from notebook to production: multi-agent orchestration,</text>
+<text class="body" x="46" y="296">hybrid and graph retrieval, preference-tuned open models,</text>
+<text class="body" x="46" y="319">and the evals that tell you when any of it got worse.</text>
+<text class="tok" transform="translate(656.0,104) rotate(-50)">&lt;bos&gt;</text>
+<text class="tok" transform="translate(680.0,104) rotate(-50)">Govind</text>
+<text class="tok" transform="translate(704.0,104) rotate(-50)">builds</text>
+<text class="tok" transform="translate(728.0,104) rotate(-50)">agents</text>
+<text class="tok" transform="translate(752.0,104) rotate(-50)">that</text>
+<text class="tok" transform="translate(776.0,104) rotate(-50)">retrieve</text>
+<text class="tok" transform="translate(800.0,104) rotate(-50)">,</text>
+<text class="tok" transform="translate(824.0,104) rotate(-50)">reason</text>
+<text class="tok" transform="translate(848.0,104) rotate(-50)">and</text>
+<text class="tok" transform="translate(872.0,104) rotate(-50)">ship</text>
+<text class="axis" x="760.0" y="374" text-anchor="middle">keys</text>
+<text class="axis" transform="translate(562,232.0) rotate(-90)" text-anchor="middle">queries</text>
+<g class="row" style="animation-delay:0.35s">
+<text class="tok" x="632" y="128" text-anchor="end">&lt;bos&gt;</text>
+<rect x="641" y="113" width="22" height="22" rx="2" fill="#fde725"/>
+<rect x="665" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="689" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="713" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="737" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="761" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="785" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="809" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="833" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="857" y="113" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:0.77s">
+<text class="tok" x="632" y="152" text-anchor="end">Govind</text>
+<rect x="641" y="137" width="22" height="22" rx="2" fill="#2db27d"/>
+<rect x="665" y="137" width="22" height="22" rx="2" fill="#73d056"/>
+<rect x="689" y="137" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="713" y="137" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="737" y="137" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="761" y="137" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="785" y="137" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="809" y="137" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="833" y="137" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="857" y="137" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:1.19s">
+<text class="tok" x="632" y="176" text-anchor="end">builds</text>
+<rect x="641" y="161" width="22" height="22" rx="2" fill="#30698e"/>
+<rect x="665" y="161" width="22" height="22" rx="2" fill="#cae11f"/>
+<rect x="689" y="161" width="22" height="22" rx="2" fill="#443a83"/>
+<rect x="713" y="161" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="737" y="161" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="761" y="161" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="785" y="161" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="809" y="161" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="833" y="161" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="857" y="161" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:1.61s">
+<text class="tok" x="632" y="200" text-anchor="end">agents</text>
+<rect x="641" y="185" width="22" height="22" rx="2" fill="#39568c"/>
+<rect x="665" y="185" width="22" height="22" rx="2" fill="#482677"/>
+<rect x="689" y="185" width="22" height="22" rx="2" fill="#b5de2b"/>
+<rect x="713" y="185" width="22" height="22" rx="2" fill="#453882"/>
+<rect x="737" y="185" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="761" y="185" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="785" y="185" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="809" y="185" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="833" y="185" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="857" y="185" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:2.03s">
+<text class="tok" x="632" y="224" text-anchor="end">that</text>
+<rect x="641" y="209" width="22" height="22" rx="2" fill="#3d4e8a"/>
+<rect x="665" y="209" width="22" height="22" rx="2" fill="#481467"/>
+<rect x="689" y="209" width="22" height="22" rx="2" fill="#482071"/>
+<rect x="713" y="209" width="22" height="22" rx="2" fill="#e5e419"/>
+<rect x="737" y="209" width="22" height="22" rx="2" fill="#482374"/>
+<rect x="761" y="209" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="785" y="209" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="809" y="209" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="833" y="209" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="857" y="209" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:2.45s">
+<text class="tok" x="632" y="248" text-anchor="end">retrieve</text>
+<rect x="641" y="233" width="22" height="22" rx="2" fill="#3d4e8a"/>
+<rect x="665" y="233" width="22" height="22" rx="2" fill="#481b6d"/>
+<rect x="689" y="233" width="22" height="22" rx="2" fill="#482374"/>
+<rect x="713" y="233" width="22" height="22" rx="2" fill="#2eb37c"/>
+<rect x="737" y="233" width="22" height="22" rx="2" fill="#365d8d"/>
+<rect x="761" y="233" width="22" height="22" rx="2" fill="#482071"/>
+<rect x="785" y="233" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="809" y="233" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="833" y="233" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="857" y="233" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:2.87s">
+<text class="tok" x="632" y="272" text-anchor="end">,</text>
+<rect x="641" y="257" width="22" height="22" rx="2" fill="#2e6e8e"/>
+<rect x="665" y="257" width="22" height="22" rx="2" fill="#481769"/>
+<rect x="689" y="257" width="22" height="22" rx="2" fill="#481769"/>
+<rect x="713" y="257" width="22" height="22" rx="2" fill="#482071"/>
+<rect x="737" y="257" width="22" height="22" rx="2" fill="#481769"/>
+<rect x="761" y="257" width="22" height="22" rx="2" fill="#50c46a"/>
+<rect x="785" y="257" width="22" height="22" rx="2" fill="#481d6f"/>
+<rect x="809" y="257" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="833" y="257" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="857" y="257" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:3.29s">
+<text class="tok" x="632" y="296" text-anchor="end">reason</text>
+<rect x="641" y="281" width="22" height="22" rx="2" fill="#3e4c8a"/>
+<rect x="665" y="281" width="22" height="22" rx="2" fill="#481467"/>
+<rect x="689" y="281" width="22" height="22" rx="2" fill="#481467"/>
+<rect x="713" y="281" width="22" height="22" rx="2" fill="#20938c"/>
+<rect x="737" y="281" width="22" height="22" rx="2" fill="#46307e"/>
+<rect x="761" y="281" width="22" height="22" rx="2" fill="#3a538b"/>
+<rect x="785" y="281" width="22" height="22" rx="2" fill="#482979"/>
+<rect x="809" y="281" width="22" height="22" rx="2" fill="#481c6e"/>
+<rect x="833" y="281" width="22" height="22" rx="2" fill="url(#hatch)"/>
+<rect x="857" y="281" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:3.71s">
+<text class="tok" x="632" y="320" text-anchor="end">and</text>
+<rect x="641" y="305" width="22" height="22" rx="2" fill="#39568c"/>
+<rect x="665" y="305" width="22" height="22" rx="2" fill="#481467"/>
+<rect x="689" y="305" width="22" height="22" rx="2" fill="#481467"/>
+<rect x="713" y="305" width="22" height="22" rx="2" fill="#481467"/>
+<rect x="737" y="305" width="22" height="22" rx="2" fill="#481467"/>
+<rect x="761" y="305" width="22" height="22" rx="2" fill="#414287"/>
+<rect x="785" y="305" width="22" height="22" rx="2" fill="#46337f"/>
+<rect x="809" y="305" width="22" height="22" rx="2" fill="#1f998a"/>
+<rect x="833" y="305" width="22" height="22" rx="2" fill="#48186a"/>
+<rect x="857" y="305" width="22" height="22" rx="2" fill="url(#hatch)"/>
+</g>
+<g class="row" style="animation-delay:4.13s">
+<text class="tok" x="632" y="344" text-anchor="end">ship</text>
+<rect x="641" y="329" width="22" height="22" rx="2" fill="#414487"/>
+<rect x="665" y="329" width="22" height="22" rx="2" fill="#463480"/>
+<rect x="689" y="329" width="22" height="22" rx="2" fill="#471164"/>
+<rect x="713" y="329" width="22" height="22" rx="2" fill="#25848e"/>
+<rect x="737" y="329" width="22" height="22" rx="2" fill="#471164"/>
+<rect x="761" y="329" width="22" height="22" rx="2" fill="#482878"/>
+<rect x="785" y="329" width="22" height="22" rx="2" fill="#471164"/>
+<rect x="809" y="329" width="22" height="22" rx="2" fill="#482878"/>
+<rect x="833" y="329" width="22" height="22" rx="2" fill="#414487"/>
+<rect x="857" y="329" width="22" height="22" rx="2" fill="#481769"/>
+</g>
+<rect class="cursor" x="639" y="112" width="242" height="24" rx="3" fill="none" stroke="#e6edf3" stroke-width="1.5" opacity="0"/>
+<rect x="902" y="112" width="10" height="240" rx="2" fill="url(#cbar)"/>
+<text class="tok" x="918" y="356.0">0</text>
+<text class="tok" x="918" y="236.0">.35</text>
+<text class="tok" x="918" y="116.0">.70</text>
+<line x1="44" y1="404" x2="896" y2="404" stroke="#30363d"/>
+<text class="cap" x="44" y="434"><tspan class="capb">Figure 1.</tspan> Causal self-attention over the sentence on the left, one head.</text>
+<text class="cap" x="44" y="456">Hatched cells are masked (j &gt; i). The steady &lt;bos&gt; column is the attention sink.</text>
+</svg>
