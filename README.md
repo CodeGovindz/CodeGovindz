@@ -11,19 +11,16 @@ I work on the unglamorous half of LLM engineering: getting systems that demo wel
 
 ### 1 &nbsp; Methods
 
-**Agents.** Supervisor-style multi-agent graphs in LangGraph, with tools exposed over MCP. I led a zero-downtime migration of a 10+ agent platform from Semantic Kernel to LangGraph that kept every consumer contract intact. I keep async services non-blocking by pushing synchronous SDK calls off the event loop.
-
-**Retrieval.** BM25 plus dense retrieval, cross-encoder reranking, and embedding models fine-tuned on mined hard negatives. When the corpus is about entities and their relationships, I use GraphRAG on Neo4j, because nearest-neighbour search alone misses those links.
-
-**Post-training.** QLoRA on open 7B models with Unsloth and TRL, followed by preference optimisation directly on chosen and rejected extractions:
+| | |
+|---|---|
+| **Agents** | LangGraph supervisor graphs, MCP tools, async FastAPI |
+| **Retrieval** | Hybrid BM25 + dense, cross-encoder rerank, GraphRAG on Neo4j |
+| **Post-training** | QLoRA → DPO on open 7B models, served with vLLM + AWQ |
+| **Evals** | RAGAS, LLM-as-judge, Langfuse, CI gates on faithfulness |
 
 ```math
-\mathcal{L}_{\mathrm{DPO}}(\pi_\theta;\pi_{\mathrm{ref}}) = -\,\mathbb{E}_{(x,\,y_w,\,y_l)}\!\left[\log\sigma\!\left(\beta\log\frac{\pi_\theta(y_w\mid x)}{\pi_{\mathrm{ref}}(y_w\mid x)} - \beta\log\frac{\pi_\theta(y_l\mid x)}{\pi_{\mathrm{ref}}(y_l\mid x)}\right)\right]
+\mathcal{L}_{\mathrm{DPO}} = -\,\mathbb{E}\!\left[\log\sigma\!\left(\beta\log\frac{\pi_\theta(y_w\mid x)}{\pi_{\mathrm{ref}}(y_w\mid x)} - \beta\log\frac{\pi_\theta(y_l\mid x)}{\pi_{\mathrm{ref}}(y_l\mid x)}\right)\right]
 ```
-
-The models are served with vLLM and AWQ quantization. When a small tuned model lands within a point of a frontier model, cost decides the rest.
-
-**Evaluation.** RAGAS, LLM-as-judge drift monitoring and Langfuse traces, wired into CI so that a faithfulness regression blocks the merge.
 
 ### 2 &nbsp; Results
 
@@ -38,33 +35,23 @@ The GraphRAG pipeline indexes 15K+ documents and improves retrieval accuracy by 
 
 ```mermaid
 flowchart LR
-    Q([query]) --> C{semantic cache}
-    C -- hit --> A([answer])
-    C -- miss --> H[hybrid retrieval<br/>BM25 + tuned embeddings]
-    H --> R[cross-encoder<br/>rerank]
-    R --> G[LLM · Bedrock]
-    G --> A
-    G -. traces .-> T[(Langfuse)]
-    T -. drift: LLM-as-judge .-> E
-    subgraph CI [every pull request]
-        P[PR] --> E[RAGAS suite<br/>faithfulness · recall]
-        E -- regression --> X[[merge blocked]]
-        E -- pass --> D[deploy · ECS]
-    end
+    Q([query]) --> C{cache}
+    C -- miss --> H[BM25 + dense] --> R[rerank] --> G[LLM] --> A([answer])
+    C -- hit --> A
+    G -. traces .-> E[RAGAS eval gate]
+    E -- regression --> X[[merge blocked]]
 ```
 
-**Figure 3.** The eval-gated RAG system over 2,000+ SEC 10-K filings. Profiling each stage separately and adding the semantic cache are what brought p95 latency down 40% and cost per query down 35%.
+**Figure 3.** Eval-gated RAG over 2,000+ SEC 10-K filings.
 
-### 4 &nbsp; Open-source artifacts
+### 4 &nbsp; Open source
 
-| | What it does | Built with |
-|---|---|---|
-| [**GEXA**](https://github.com/CodeGovindz/GEXA) | Web search API for AI agents: semantic search, crawling, extraction, grounded answers | Python |
-| [**MindLayer**](https://github.com/CodeGovindz/MindLayer) | Model-agnostic memory layer that lets you switch LLMs mid-conversation without losing context | Python, vector retrieval |
-| [**Web-Crawler**](https://github.com/CodeGovindz/Web-Crawler) | Async crawler with JS rendering, stealth, robots.txt compliance and a live WebSocket UI | Python, asyncio |
-| [**Manan**](https://github.com/CodeGovindz/Manan) | Privacy-first mental health companion app | Flutter, Supabase |
-
-**Table 1.** Public repositories.
+| | |
+|---|---|
+| [**GEXA**](https://github.com/CodeGovindz/GEXA) | Web search API for AI agents |
+| [**MindLayer**](https://github.com/CodeGovindz/MindLayer) | Switch LLMs without losing memory |
+| [**Web-Crawler**](https://github.com/CodeGovindz/Web-Crawler) | Async crawler with JS rendering and stealth |
+| [**Manan**](https://github.com/CodeGovindz/Manan) | Privacy-first mental health app |
 
 ### References
 
